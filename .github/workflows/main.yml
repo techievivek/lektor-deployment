@@ -13,4 +13,5 @@ jobs:
      run: |
       pip install pipenv
       pipenv install 
-      pipenv run lektor build --output-path build
+      mkdir build
+      pipenv run lektor build --output-path ./build
