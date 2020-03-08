@@ -14,4 +14,4 @@ jobs:
       pip install pipenv
       pipenv install 
       mkdir build
-      pipenv run lektor build --output-path ./build
+      pipenv run lektor build -f webpack --output-path ./build
